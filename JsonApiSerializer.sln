@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonApiSerializer", "src\JsonApiSerializer\JsonApiSerializer.csproj", "{3CFAD26B-A705-4180-A210-E0B7BBDF6404}"
 EndProject
@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{52
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonApiSerializer.AspNetCore.Mvc.Formatters.JsonApi", "src\JsonApiSerializer.AspNetCore.Mvc.Formatters.JsonApi\JsonApiSerializer.AspNetCore.Mvc.Formatters.JsonApi.csproj", "{708F3DDE-A1B8-43D4-99F8-634F900C83B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{ACED8723-0D2D-40E1-9E92-C0E755A60F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACED8723-0D2D-40E1-9E92-C0E755A60F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACED8723-0D2D-40E1-9E92-C0E755A60F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708F3DDE-A1B8-43D4-99F8-634F900C83B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708F3DDE-A1B8-43D4-99F8-634F900C83B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708F3DDE-A1B8-43D4-99F8-634F900C83B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708F3DDE-A1B8-43D4-99F8-634F900C83B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3CFAD26B-A705-4180-A210-E0B7BBDF6404} = {2CC10E19-7EEE-4E16-8473-89BB78642787}
 		{ACED8723-0D2D-40E1-9E92-C0E755A60F3A} = {32D2F3FF-275C-4CD1-ABBE-9D3865DFC297}
+		{708F3DDE-A1B8-43D4-99F8-634F900C83B8} = {2CC10E19-7EEE-4E16-8473-89BB78642787}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74E57F44-FD27-494F-ADFF-973B551D31B0}
